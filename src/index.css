@@ -1,0 +1,17 @@
+/* Tailwind base styles */
+@tailwind base;
+
+/* Tailwind components (utilities like buttons, forms, etc.) */
+@tailwind components;
+
+/* Tailwind utilities (classes like flex, text-center, mt-4, etc.) */
+@tailwind utilities;
+
+/* Your custom styles (optional) */
+body {
+  @apply bg-white text-black font-sans;
+}
+
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
